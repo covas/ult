@@ -1,0 +1,6 @@
+<%= form_for @song, :url => addSong_path do |f| %>
+    <%= f.text_field :name %>
+    <%= f.text_area :url  , :size => "60x12" %>
+    <%= f.text_area :info %>
+    <%= f.submit "Create" %>
+<% end %>

@@ -1,0 +1,9 @@
+<table>
+  <% @songs.each do |song| %>
+      <tr>
+        <td style = "color:red ; " ><%= song[:name] %></td>
+        <td style = "color: blue ; " ><%= song[:url]  %>
+        <td style = "color: blue ; " ><%= song[:info]  %>
+      </tr>
+  <% end %>
+</table>
